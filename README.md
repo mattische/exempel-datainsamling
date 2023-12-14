@@ -29,3 +29,17 @@ Genererar två html-filer:
 - startar browser (med open-kommandot) med html-sidorna
 ```
 
+
+**kör exemplet**
+
+```
+Du behöver node.
+
+$npm install
+
+$npm app.js
+
+$npm world_data.js
+
+```
+
