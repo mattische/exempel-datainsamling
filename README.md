@@ -5,13 +5,16 @@ med den datan.
 
 **app.js**
 
+```
 Startar en node-server (loaclhost:3000) och genererar en html-sida.
 
 Stapeldiagram visas över kontinenter över population.
+```
 
 
 **world_data.js**
 
+```
 Hämtar data och skapar en json-fil med all data i.
 
 Genererar två html-filer: 
@@ -23,4 +26,5 @@ Genererar två html-filer:
 - skriver ut, med console.log, vald kontinent att visa json datat
 
 - startar browser (med open-kommandot) med html-sidorna
+```
 
