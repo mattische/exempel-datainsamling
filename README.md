@@ -35,6 +35,9 @@ Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och
 ```
 Du behöver node.
 
+Installera moduler och kör med:
+
+
 $npm install
 
 $npm app.js
