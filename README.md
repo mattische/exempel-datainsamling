@@ -7,18 +7,18 @@ Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och
 **app.js**
 
 ```
-Startar en node-server (express, localhost:3000) och genererar en html-sida.
+- startar en node-server (express, localhost:3000) och genererar en html-sida.
 
-Stapeldiagram visas över kontinenter över population.
+- stapeldiagram visas över kontinenter över population.
 ```
 
 
 **world_data.js**
 
 ```
-Hämtar data och skapar en json-fil med all data i.
+- hämtar data och skapar en json-fil med all data i.
 
-Genererar två html-filer: 
+- genererar två html-filer: 
 
 - en med en världskarta och färgmarkeringar över länder utifrån deras population
 
