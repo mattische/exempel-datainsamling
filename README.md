@@ -7,7 +7,7 @@ Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och
 **app.js**
 
 ```
-Startar en node-server (loaclhost:3000) och genererar en html-sida.
+Startar en node-server (express, localhost:3000) och genererar en html-sida.
 
 Stapeldiagram visas över kontinenter över population.
 ```
