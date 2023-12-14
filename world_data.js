@@ -5,15 +5,12 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 const { get } = require("lodash");
 const { count } = require("console");
-//dynamisk import av d3
-//const d3 = require("d3");
+
 //readline för att läsa input från konsolen
 const readline = require("readline").createInterface({
   input: process.stdin,
   output: process.stdout,
 });
-
-
 
 //urlen som datat ska hämtas ifrån
 const url = "https://restcountries.com/v3.1/all";
@@ -22,7 +19,6 @@ const filename = "world_data.json";
 
 //hämtar data om länder ifrån https://restcountries.com/v3.1/all'
 //och sparar som json i en fil
-
 function saveAndFetchCountriesToFile() {
   fetch(url)
     .then((res) => res.json())
@@ -49,12 +45,10 @@ function saveAndFetchCountriesToFile() {
     });
 }
 
-
 //läser in json filen och returnerar innehållet (som json array)
 function readJsonFile() {
   return JSON.parse(fs.readFileSync(filename));
 }
-
 
 //en funktion som sorterar länderna efter parametern som skickas in
 //det finns 8 olika parametrar att välja mellan:
@@ -72,7 +66,6 @@ function sortCountries(countries, param) {
   return countries;
 }
 
-
 //en funktion som placerar länderna i de regioner som finns
 //parametern som skickas in är den region som man vill returnera
 //det finns 6 olika regioner att välja mellan:
@@ -87,9 +80,6 @@ function getCountriesByRegion(region) {
   return countriesByRegion;
 }
 
-
-
-
 //läs in json filen och skapa en html sida som en tabell
 function createHtmlTable() {
   let countries = readJsonFile();
@@ -102,7 +92,6 @@ function createHtmlTable() {
   html += "</table></body></html>";
   fs.writeFileSync("world_data.html", html);
 }
-
 
 //en funktion som skapar en html sida som använder Openlayers för att skapa kartan 
 //och lägger till markörer för varje land
@@ -183,7 +172,6 @@ map.addLayer(markerVectorLayer);
   );
   html += "</script></body></html>";
   fs.writeFileSync("world_heatmap_openlayers.html", html);
-
 }
 
 //hämtar och sparar data till fil
@@ -194,8 +182,6 @@ readline.question("Vilken region vill du se (Alla, Africa, Americas, Asia, Europ
   region = usrregion;
   readline.close();
 
-
-
   //htmltabell efter population
   createHtmlTable();
   //heatmap efter population
@@ -204,12 +190,11 @@ readline.question("Vilken region vill du se (Alla, Africa, Americas, Asia, Europ
   let reg = getCountriesByRegion(region);
   sortCountries(reg, "population");
   console.log(reg);
-
+  
   openBrowser();
-
 });
 
-//en funktion som öppnar webbläsaren med de sparade filerna
+//öppnar webbläsaren med de sparade filerna
 function openBrowser() {
   const { exec } = require("child_process");
   exec("open world_data.html");
