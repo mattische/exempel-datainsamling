@@ -1,7 +1,8 @@
 # Datainsamling test
 
-Detta är ett snabbt test att hämta "fri" data och sedan generera sidor
-med den datan.
+Detta är ett lite exempel/test med att node för datainsamling.
+
+Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och sedan generera något med datat.
 
 **app.js**
 
