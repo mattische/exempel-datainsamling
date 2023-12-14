@@ -1,0 +1,7 @@
+.DS_Store
+.vscode
+node_modules/
+package-lock.json
+world_data.json
+world_data.html
+world_heatmap_openlayers.html
