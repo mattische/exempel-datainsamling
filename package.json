@@ -1,12 +1,12 @@
 {
   "name": "rest_countries",
   "version": "1.0.0",
-  "description": "",
+  "description": "exempel på datainsamling",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "mattische",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.2",
@@ -21,6 +21,5 @@
     "lodash": "^4.17.21",
     "papaparse": "^5.4.1",
     "topojson": "^3.0.2",
-    "wordcloud": "^1.2.2"
   }
 }
