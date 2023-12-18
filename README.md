@@ -46,6 +46,6 @@ $npm world_data.js
 
 ```
 
-sd
+the end
 
 //@mattische
