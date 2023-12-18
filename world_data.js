@@ -1,7 +1,7 @@
 //hämtar data om länder ifrån https://restcountries.com/v3.1/all
 // och sparar i en array och skriver till fil
 
-const fetch = require("node-fetch");
+const axios = require("axios");
 const fs = require("fs");
 const { get } = require("lodash");
 const { count } = require("console");
@@ -17,28 +17,28 @@ const url = "https://restcountries.com/v3.1/all";
 //filnamnet som json filen ska sparas som
 const filename = "world_data.json";
 
-//hämtar data om länder ifrån https://restcountries.com/v3.1/all'
+//axios för att hämta data /ifrån https://restcountries.com/v3.1/all'
 //och sparar som json i en fil
-function saveAndFetchCountriesToFile() {
-  fetch(url)
-    .then((res) => res.json())
-    .then((data) => {
-      let countries = [];
-      data.forEach((country) => {
-        countries.push({
-          name: country.name.common,
-          capital: country.capital,
-          region: country.region,
-          subregion: country.subregion,
-          population: country.population,
-          area: country.area,
-          borders: country.borders,
-          languages: country.languages,
-          flag: country.flags.png,
-          latlng: country.latlng,
-        });
-      });
-      //gör datat till en json fil
+function saveAndFetchData() {
+   axios.get(url)
+     .then((res) => {
+       let countries = [];
+       res.data.forEach((country) => {
+         countries.push({
+           name: country.name.common,
+           capital: country.capital,
+           region: country.region,
+           subregion: country.subregion,
+           population: country.population,
+           area: country.area,
+           borders: country.borders,
+           languages: country.languages,
+           flag: country.flags.png,
+           latlng: country.latlng,
+         });
+       });
+       //spara datat som en json fil
+        //gör datat till en json fil
       fs.writeFileSync(filename, JSON.stringify(countries, null, 2));
       console.info("\n info: hämtat data och sparat fil\n");
 
@@ -175,7 +175,7 @@ map.addLayer(markerVectorLayer);
 }
 
 //hämtar och sparar data till fil
-saveAndFetchCountriesToFile();
+saveAndFetchData();
 //användaren skriver in i konsolen vilken region som ska skrivas ut
 let region = "";
 readline.question("Vilken region vill du se (Alla, Africa, Americas, Asia, Europe, Oceania, Polar)? ", (usrregion) => {
