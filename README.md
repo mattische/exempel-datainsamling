@@ -35,10 +35,14 @@ Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och
 ```
 Du behöver node.
 
-Installera moduler och kör med:
+Installera moduler:
 
 
 $npm install
+
+
+````
+kör med:
 
 $npm app.js
 
@@ -46,6 +50,9 @@ $npm world_data.js
 
 ```
 
-the end
+Ovan generar world_data.js, world_data.html, world_heatmap_openlayers.js
 
+
+```
 //@mattische
+````
