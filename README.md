@@ -32,17 +32,21 @@ Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och
 
 **kör exemplet**
 
-```
 Du behöver node.
 
 Installera moduler:
 
 
+```
+
 $npm install
 
+````
+
+kör med:
 
 ````
-kör med:
+
 
 $npm app.js
 
