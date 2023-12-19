@@ -27,7 +27,8 @@ Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och
 - skriver ut, med console.log, vald kontinent att visa json datat
 
 - startar browser (med open-kommandot) med html-sidorna
-```
+````
+
 
 
 **kör exemplet**
@@ -45,8 +46,9 @@ $npm install
 
 kör med:
 
-````
 
+
+```
 
 $npm app.js
 
