@@ -50,14 +50,14 @@ kör med:
 
 ```
 
-$npm app.js
+$node app.js
 
-$npm world_data.js
+$node world_data.js
 
 ```
 
-Ovan generar world_data.js, world_data.html, world_heatmap_openlayers.js
-
+generar world_data.js, world_data.html, world_heatmap_openlayers.js
+en server startas på localhost:3000
 
 ```
 //@mattische
