@@ -6,7 +6,7 @@
 
 const express = require('express');
 const axios = require('axios');
-const Chart = require('chart.js');
+//const Chart = require('chart.js'); //obsolete
 const { JSDOM } = require('jsdom');
 const _ = require('lodash');
 
