@@ -1,6 +1,6 @@
 # Datainsamling test
 
-Detta är ett lite exempel/test med att node för datainsamling.
+Ett exempel/test med node för datainsamling.
 
 Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och sedan generera något med datat.
 
@@ -56,8 +56,8 @@ $node world_data.js
 
 ```
 
-generar world_data.js, world_data.html, world_heatmap_openlayers.js
-en server startas på localhost:3000
+world_data.js - generar world_data.html, world_heatmap_openlayers.html som kan öppnas i browsern.
+app.js - en server startas på http://localhost:3000 med diagramdata.
 
 ```
 //@mattische
