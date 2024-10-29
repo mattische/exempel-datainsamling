@@ -1,8 +1,5 @@
 const axios = require('axios');
 
-// Din API-nyckel från SCB (om nödvändigt)
-//const apiKey = 'DIN_API_NYCKEL_HÄR'; // Om ingen nyckel behövs, kan du ta bort detta.
-
 // SCB:s engelska endpoint för befolkningsstatistik
 // "Population by region, marital status, age, sex, observations and year",
 const url = 'https://api.scb.se/OV0104/v1/doris/en/ssd/BE/BE0101/BE0101A/BefolkningNy';
@@ -35,7 +32,6 @@ async function fetchPopulationData() {
             headers: {
                 'Content-Type': 'application/json',
                 'Accept': 'application/json',
-                //...(apiKey ? { 'SCB-Api-Key': apiKey } : {}) // Lägg till API-nyckeln om den finns
             }
         });
 
