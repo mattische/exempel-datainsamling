@@ -1,8 +1,13 @@
 # Datainsamling test
 
-Ett exempel/test med node för datainsamling.
+Två exempel/test med node för datainsamling.
 
-Exemplet är tänkt att visa hur snabbt man komma igång med t ex "fri" data och sedan generera något med datat.
+Exemplen är tänkta att visa hur snabbt man komma igång med t ex "fri" data och sedan generera något med datat.
+
+I rotmappen finns ett exempel med population från restcountries API:t och i mappen scb finns två exempel med befolkningsdata från SCB.
+Läs mer om det i README.md i scb-mappen.
+
+
 
 **app.js**
 
