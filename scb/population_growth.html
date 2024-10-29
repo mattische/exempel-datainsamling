@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Growth in Swedish Large Cities (1973-2022)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Population Growth in Stockholm, Gothenburg, and Malmö (1973-2022)</h2>
+    <canvas id="populationGrowthChart" width="800" height="400"></canvas>
+
+    <script>
+        // Hämta data från JSON-filen
+        fetch('population_growth_large_cities.json')
+            .then(response => response.json())
+            .then(data => {
+                // Extrahera år och befolkning för varje stad
+                const years = data.Stockholm.map(entry => entry.year);
+                const stockholmPopulation = data.Stockholm.map(entry => entry.population);
+                const gothenburgPopulation = data.Gothenburg.map(entry => entry.population);
+                const malmoPopulation = data.Malmo.map(entry => entry.population);
+
+                // Skapa ett linjediagram med Chart.js
+                const ctx = document.getElementById('populationGrowthChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'line',
+                    data: {
+                        labels: years,
+                        datasets: [
+                            {
+                                label: 'Stockholm',
+                                data: stockholmPopulation,
+                                borderColor: 'rgba(54, 162, 235, 1)',
+                                fill: false
+                            },
+                            {
+                                label: 'Gothenburg',
+                                data: gothenburgPopulation,
+                                borderColor: 'rgba(255, 99, 132, 1)',
+                                fill: false
+                            },
+                            {
+                                label: 'Malmö',
+                                data: malmoPopulation,
+                                borderColor: 'rgba(75, 192, 192, 1)',
+                                fill: false
+                            }
+                        ]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: 'Population Growth in Swedish Large Cities (1973-2022)'
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
+    </script>
+</body>
+</html>

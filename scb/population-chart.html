@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swedish Population in Large Cities (2022)</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h2>Population in Swedish Large Cities (2022)</h2>
+    <canvas id="populationChart" width="800" height="400"></canvas>
+
+    <script>
+        // Hämta data från JSON-filen
+        fetch('population_data_large_cities.json')
+            .then(response => response.json())
+            .then(data => {
+                // Extrahera regioner och befolkningssiffror
+                const regions = data.map(item => item.region);
+                const populations = data.map(item => item.population);
+
+                // Skapa ett stapeldiagram med Chart.js
+                const ctx = document.getElementById('populationChart').getContext('2d');
+                new Chart(ctx, {
+                    type: 'bar',
+                    data: {
+                        labels: regions,
+                        datasets: [{
+                            label: 'Population',
+                            data: populations,
+                            backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        }
+                    }
+                });
+            })
+            .catch(error => console.error('Error loading data:', error));
+    </script>
+</body>
+</html>

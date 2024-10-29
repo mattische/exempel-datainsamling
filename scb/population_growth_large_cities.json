@@ -1,0 +1,608 @@
+{
+  "Stockholm": [
+    {
+      "year": "1973",
+      "population": 681318
+    },
+    {
+      "year": "1974",
+      "population": 671226
+    },
+    {
+      "year": "1975",
+      "population": 665202
+    },
+    {
+      "year": "1976",
+      "population": 661258
+    },
+    {
+      "year": "1977",
+      "population": 658435
+    },
+    {
+      "year": "1978",
+      "population": 653929
+    },
+    {
+      "year": "1979",
+      "population": 649384
+    },
+    {
+      "year": "1980",
+      "population": 647214
+    },
+    {
+      "year": "1981",
+      "population": 647115
+    },
+    {
+      "year": "1982",
+      "population": 649686
+    },
+    {
+      "year": "1983",
+      "population": 650952
+    },
+    {
+      "year": "1984",
+      "population": 653455
+    },
+    {
+      "year": "1985",
+      "population": 659030
+    },
+    {
+      "year": "1986",
+      "population": 663217
+    },
+    {
+      "year": "1987",
+      "population": 666810
+    },
+    {
+      "year": "1988",
+      "population": 669485
+    },
+    {
+      "year": "1989",
+      "population": 672187
+    },
+    {
+      "year": "1990",
+      "population": 674452
+    },
+    {
+      "year": "1991",
+      "population": 679364
+    },
+    {
+      "year": "1992",
+      "population": 684576
+    },
+    {
+      "year": "1993",
+      "population": 692954
+    },
+    {
+      "year": "1994",
+      "population": 703627
+    },
+    {
+      "year": "1995",
+      "population": 711119
+    },
+    {
+      "year": "1996",
+      "population": 718462
+    },
+    {
+      "year": "1997",
+      "population": 727339
+    },
+    {
+      "year": "1998",
+      "population": 736113
+    },
+    {
+      "year": "1999",
+      "population": 743703
+    },
+    {
+      "year": "2000",
+      "population": 750348
+    },
+    {
+      "year": "2001",
+      "population": 754948
+    },
+    {
+      "year": "2002",
+      "population": 758148
+    },
+    {
+      "year": "2003",
+      "population": 761721
+    },
+    {
+      "year": "2004",
+      "population": 765044
+    },
+    {
+      "year": "2005",
+      "population": 771038
+    },
+    {
+      "year": "2006",
+      "population": 782885
+    },
+    {
+      "year": "2007",
+      "population": 795163
+    },
+    {
+      "year": "2008",
+      "population": 810120
+    },
+    {
+      "year": "2009",
+      "population": 829417
+    },
+    {
+      "year": "2010",
+      "population": 847073
+    },
+    {
+      "year": "2011",
+      "population": 864324
+    },
+    {
+      "year": "2012",
+      "population": 881235
+    },
+    {
+      "year": "2013",
+      "population": 897700
+    },
+    {
+      "year": "2014",
+      "population": 911989
+    },
+    {
+      "year": "2015",
+      "population": 923516
+    },
+    {
+      "year": "2016",
+      "population": 935619
+    },
+    {
+      "year": "2017",
+      "population": 949761
+    },
+    {
+      "year": "2018",
+      "population": 962154
+    },
+    {
+      "year": "2019",
+      "population": 974073
+    },
+    {
+      "year": "2020",
+      "population": 975551
+    },
+    {
+      "year": "2021",
+      "population": 978770
+    },
+    {
+      "year": "2022",
+      "population": 984748
+    }
+  ],
+  "Gothenburg": [
+    {
+      "year": "1973",
+      "population": 449470
+    },
+    {
+      "year": "1974",
+      "population": 445704
+    },
+    {
+      "year": "1975",
+      "population": 444651
+    },
+    {
+      "year": "1976",
+      "population": 442410
+    },
+    {
+      "year": "1977",
+      "population": 440082
+    },
+    {
+      "year": "1978",
+      "population": 436985
+    },
+    {
+      "year": "1979",
+      "population": 434699
+    },
+    {
+      "year": "1980",
+      "population": 431273
+    },
+    {
+      "year": "1981",
+      "population": 428171
+    },
+    {
+      "year": "1982",
+      "population": 425875
+    },
+    {
+      "year": "1983",
+      "population": 424186
+    },
+    {
+      "year": "1984",
+      "population": 424085
+    },
+    {
+      "year": "1985",
+      "population": 425495
+    },
+    {
+      "year": "1986",
+      "population": 429339
+    },
+    {
+      "year": "1987",
+      "population": 431521
+    },
+    {
+      "year": "1988",
+      "population": 430763
+    },
+    {
+      "year": "1989",
+      "population": 431840
+    },
+    {
+      "year": "1990",
+      "population": 433042
+    },
+    {
+      "year": "1991",
+      "population": 432112
+    },
+    {
+      "year": "1992",
+      "population": 433811
+    },
+    {
+      "year": "1993",
+      "population": 437313
+    },
+    {
+      "year": "1994",
+      "population": 444553
+    },
+    {
+      "year": "1995",
+      "population": 449189
+    },
+    {
+      "year": "1996",
+      "population": 454016
+    },
+    {
+      "year": "1997",
+      "population": 456611
+    },
+    {
+      "year": "1998",
+      "population": 459593
+    },
+    {
+      "year": "1999",
+      "population": 462470
+    },
+    {
+      "year": "2000",
+      "population": 466990
+    },
+    {
+      "year": "2001",
+      "population": 471267
+    },
+    {
+      "year": "2002",
+      "population": 474921
+    },
+    {
+      "year": "2003",
+      "population": 478055
+    },
+    {
+      "year": "2004",
+      "population": 481410
+    },
+    {
+      "year": "2005",
+      "population": 484942
+    },
+    {
+      "year": "2006",
+      "population": 489757
+    },
+    {
+      "year": "2007",
+      "population": 493502
+    },
+    {
+      "year": "2008",
+      "population": 500197
+    },
+    {
+      "year": "2009",
+      "population": 507330
+    },
+    {
+      "year": "2010",
+      "population": 513751
+    },
+    {
+      "year": "2011",
+      "population": 520374
+    },
+    {
+      "year": "2012",
+      "population": 526089
+    },
+    {
+      "year": "2013",
+      "population": 533271
+    },
+    {
+      "year": "2014",
+      "population": 541145
+    },
+    {
+      "year": "2015",
+      "population": 548190
+    },
+    {
+      "year": "2016",
+      "population": 556640
+    },
+    {
+      "year": "2017",
+      "population": 564039
+    },
+    {
+      "year": "2018",
+      "population": 571868
+    },
+    {
+      "year": "2019",
+      "population": 579281
+    },
+    {
+      "year": "2020",
+      "population": 583056
+    },
+    {
+      "year": "2021",
+      "population": 587549
+    },
+    {
+      "year": "2022",
+      "population": 596841
+    }
+  ],
+  "Malmo": [
+    {
+      "year": "1973",
+      "population": 251431
+    },
+    {
+      "year": "1974",
+      "population": 246647
+    },
+    {
+      "year": "1975",
+      "population": 243591
+    },
+    {
+      "year": "1976",
+      "population": 240220
+    },
+    {
+      "year": "1977",
+      "population": 238454
+    },
+    {
+      "year": "1978",
+      "population": 236716
+    },
+    {
+      "year": "1979",
+      "population": 235111
+    },
+    {
+      "year": "1980",
+      "population": 233803
+    },
+    {
+      "year": "1981",
+      "population": 231532
+    },
+    {
+      "year": "1982",
+      "population": 230381
+    },
+    {
+      "year": "1983",
+      "population": 229380
+    },
+    {
+      "year": "1984",
+      "population": 229107
+    },
+    {
+      "year": "1985",
+      "population": 229936
+    },
+    {
+      "year": "1986",
+      "population": 230056
+    },
+    {
+      "year": "1987",
+      "population": 230838
+    },
+    {
+      "year": "1988",
+      "population": 231575
+    },
+    {
+      "year": "1989",
+      "population": 232908
+    },
+    {
+      "year": "1990",
+      "population": 233887
+    },
+    {
+      "year": "1991",
+      "population": 234796
+    },
+    {
+      "year": "1992",
+      "population": 236684
+    },
+    {
+      "year": "1993",
+      "population": 237438
+    },
+    {
+      "year": "1994",
+      "population": 242706
+    },
+    {
+      "year": "1995",
+      "population": 245699
+    },
+    {
+      "year": "1996",
+      "population": 248007
+    },
+    {
+      "year": "1997",
+      "population": 251408
+    },
+    {
+      "year": "1998",
+      "population": 254904
+    },
+    {
+      "year": "1999",
+      "population": 257574
+    },
+    {
+      "year": "2000",
+      "population": 259579
+    },
+    {
+      "year": "2001",
+      "population": 262397
+    },
+    {
+      "year": "2002",
+      "population": 265481
+    },
+    {
+      "year": "2003",
+      "population": 267171
+    },
+    {
+      "year": "2004",
+      "population": 269142
+    },
+    {
+      "year": "2005",
+      "population": 271271
+    },
+    {
+      "year": "2006",
+      "population": 276244
+    },
+    {
+      "year": "2007",
+      "population": 280801
+    },
+    {
+      "year": "2008",
+      "population": 286535
+    },
+    {
+      "year": "2009",
+      "population": 293909
+    },
+    {
+      "year": "2010",
+      "population": 298963
+    },
+    {
+      "year": "2011",
+      "population": 302835
+    },
+    {
+      "year": "2012",
+      "population": 307758
+    },
+    {
+      "year": "2013",
+      "population": 312994
+    },
+    {
+      "year": "2014",
+      "population": 318107
+    },
+    {
+      "year": "2015",
+      "population": 322574
+    },
+    {
+      "year": "2016",
+      "population": 328494
+    },
+    {
+      "year": "2017",
+      "population": 333633
+    },
+    {
+      "year": "2018",
+      "population": 339313
+    },
+    {
+      "year": "2019",
+      "population": 344166
+    },
+    {
+      "year": "2020",
+      "population": 347949
+    },
+    {
+      "year": "2021",
+      "population": 351749
+    },
+    {
+      "year": "2022",
+      "population": 357377
+    }
+  ]
+}
