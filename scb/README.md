@@ -30,7 +30,7 @@ Datat kan ses i ett linjediagram om man i webbläsare öppnar
 
 **population_growth.html**
 
-### instruktioner
+# instruktioner - kör exemplen
 
 axios krävs i node:
 
@@ -40,9 +40,9 @@ internetuppkoppling krävs eftersom Chart.js hämtas via CDN.
 
 generera json-filer så att diagramen kan visas, dvs kör js-filerna med node;
 
-`$node scb-population`
+`$node scb-population.js`
 
 `$node scb_population_growth_large_cities.js`
 
-Nu är json-filer genererade och html-filerna kan öppnas i webbläsare.
+**Nu är json-filer genererade och html-filerna kan öppnas i webbläsare.**
 
