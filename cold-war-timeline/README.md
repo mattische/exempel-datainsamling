@@ -9,8 +9,8 @@ Datainsamling har gjorts för viktiga årtal samt information kring dessa hände
 
 ### Filerna:
 
-**events.json:** Data för viktiga årtal, titlar, beskrivningar och bilder lagras i events.json.
+**events.json:** Data för viktiga årtal, titlar, beskrivningar och bilder lagras i events.json. Innehållet i den här filen läses in med JS från timeline.html.
 
-**timeline.html:** html, css och javascript för att visa timeline samt hämta datat från json-filen.
+**timeline.html:** Öppna den här i webbläsaren. Består av html, css och javascript för att visa timeline samt hämta datat från json-filen.
 
 
