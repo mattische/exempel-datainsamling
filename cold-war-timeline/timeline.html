@@ -97,7 +97,7 @@
   </div>
 
   <script>
-    // Funktion för att hämta data från JSON-filen
+    // hämta data från JSON-filen. 'async' för att göra inläsningen asynkront
     async function fetchTimelineData() {
       const response = await fetch('events.json');
       const events = await response.json();
@@ -117,26 +117,26 @@
       });
     }
 
-    // Funktion för att visa information i informationsrutan
+    // visa information i popup
     function showInfo(event) {
       const infoBox = document.getElementById('infoBox');
       document.getElementById('infoYear').textContent = `${event.year} - ${event.title}`;
       document.getElementById('infoText').textContent = event.description;
       document.getElementById('infoImage').src = event.image;
 
-      // Visa informationsrutan och markera valt år
+      // visa och markera valt år
       infoBox.style.display = 'block';
       document.querySelectorAll('.year').forEach(y => y.classList.remove('active'));
       document.querySelector(`.year[data-title="${event.title}"]`).classList.add('active');
     }
 
-    // Funktion för att stänga informationsrutan
+    // stänga popup
     function closeInfoBox() {
       document.getElementById('infoBox').style.display = 'none';
       document.querySelectorAll('.year').forEach(y => y.classList.remove('active'));
     }
 
-    // Initiera datainläsningen när sidan laddas
+    // Initiera inläsning av datat i json-filen när sidan laddas
     window.onload = fetchTimelineData;
   </script>
 
