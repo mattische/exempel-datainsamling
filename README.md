@@ -23,10 +23,10 @@ Några användbara länkar om json:
   
 
 ### express, axios, leaflet.js, chart.js
-I ett av exemplen används externa paket/moduler i node som är användbara. T ex så skapas en server med express och data hämtas med hjälp av axios.
-I några av exemplen genereras interaktiva kartor och diagram med chart.js och leaflet.js.
+I exemplen används externa paket/moduler i node som är användbara; t ex så skapas en server med express och data hämtas med hjälp av axios.
+I några av exemplen används andra bibliotek som infogas via deras CDN. Exempelvis så genereras interaktiva kartor och diagram med chart.js och leaflet.js.
 
-Här finns mer info;
+Här finns mer info om dessa;
 
 - https://expressjs.com/
 - https://axios-http.com/docs/intro
