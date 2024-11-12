@@ -18,10 +18,9 @@ Sedan kan du gå vidare med innehållet i de andra mapparna.
 
 ```
 exempel-datainsamling/
-├── restcountries/
-├── infograph/
 ├── cold-war-timeline/
 ├── infograph/
+├── restcountries/
 ├── scb/ 
 ```
 
