@@ -8,6 +8,33 @@ Förhoppningsvis väcker det intresse och man kan se att det inte alls är särs
 Exemplen är alltså tänkta att visa hur snabbt man komma igång med t ex "fri" data och sedan generera och visualisera något med datat.
 I dessa exempel visualiseras datat i diagram, tabeller, en timeline, ett dashboard/infografik och med en karta - men som sagt, en visualisering kan ske på många olika sätt.
 
+
+### json
+När det gäller datat i de olika exemplen så är denna sparad i formatet [JSON](https://www.json.org/json-en.html). Anledningen till det är dels att de API:er som används delar datat i detta format, samt att det är ett väldigt smidigt och behändigt format att hantera data (och datapunkter) med. Särskilt stora datamängder kan snabbt och enkelt hanteras programmatiskt.
+
+Det kan vara en bra idé att läsa på om json för att förstå hur det är uppbyggt och hur det kan användas i t ex en node-applikation.
+Även om node och javascript är i fokus i dessa exempel, så kan man använda json med många olika språk vilket är smidigt om ens system består av komponenter skrivna i olika språk - datat är i samma format.
+
+Några användbara länkar om json:
+
+- https://www.json.org/json-en.html
+- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON
+- https://www.geeksforgeeks.org/how-to-read-and-write-json-file-using-node-js/
+  
+
+### express, axios, leaflet.js, chart.js
+I ett av exemplen används externa paket/moduler i node som är användbara. T ex så skapas en server med express och data hämtas med hjälp av axios.
+I några av exemplen genereras interaktiva kartor och diagram med chart.js och leaflet.js.
+
+Här finns mer info;
+
+- https://expressjs.com/
+- https://axios-http.com/docs/intro
+- https://leafletjs.com/
+- https://www.chartjs.org/
+
+
+
 Det enklaste exemplet (om du är nybörjare i node och javascript) finns att hitta i mappen **[cold-war-timeline](https://github.com/mattische/exempel-datainsamling/tree/main/cold-war-timeline)**. 
 
 Sedan kan du gå vidare med innehållet i de andra mapparna.
