@@ -4,6 +4,10 @@ Datat hämtas ifrån följande endpoint: https://api.scb.se/OV0104/v1/doris/en/s
 
 Datat innehåller *"Population by region, marital status, age, sex, observations and year"*
 
+I det här exemplet finns med de filer som genereras när scripten (js-filerna) nedan körs.
+Det betyder att du ska kunna köra exemplet "out-of-the-box", bara att "tuta-å-köra".
+
+
 Exemplet innehåller följande filer:
 
 **scb-test.js**
