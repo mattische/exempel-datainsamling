@@ -1,6 +1,6 @@
 # Datainsamling test
 
-Detta repo innehåller några exempel/test med node för datainsamling.
+Detta repo innehåller några exempel/test med node för datainsamling och visulisering av insamlad data.
 
 Tanken är att dessa små exempel ska kunna ge tankar och idéer hur datainsamling skulle kunna ske och se ut. 
 Förhoppningsvis väcker det intresse och man kan se att det inte alls är svårt - det är bara idéer och tankar om vad man ska göra som behöver till först!
