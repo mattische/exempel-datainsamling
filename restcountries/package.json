@@ -1,0 +1,25 @@
+{
+  "name": "rest_countries",
+  "version": "1.0.0",
+  "description": "exempel på datainsamling",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mattische",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "chart": "^0.1.2",
+    "chartjs-node-canvas": "^4.1.6",
+    "d3": "^7.8.5",
+    "d3.js": "^0.0.2-security",
+    "express": "^4.18.2",
+    "jsdom": "^23.0.1",
+    "leaflet": "^1.9.4",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "papaparse": "^5.4.1",
+    "topojson": "^3.0.2"
+  }
+}
