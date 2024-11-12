@@ -35,13 +35,11 @@ Här finns mer info om dessa;
 
 
 
-Det enklaste exemplet (om du är nybörjare i node och javascript) finns att hitta i mappen **[cold-war-timeline](https://github.com/mattische/exempel-datainsamling/tree/main/cold-war-timeline)**. 
 
-Sedan kan du gå vidare med innehållet i de andra mapparna.
 
 ---
 
-### Innehåll
+### Innehåll i mapparna
 
 ```
 exempel-datainsamling/
@@ -60,7 +58,13 @@ exempel-datainsamling/
 - I mappen **[cold-war-timeline](https://github.com/mattische/exempel-datainsamling/tree/main/cold-war-timeline)** finns ett enkelt exempel som laddar in json data från en befintlig fil.
 Ingen data hämtas från externt API eller liknande - här är tanken att själva datainsamlingen sker mer manuellt och sammanställs i en json-fil.
 
-Läs mer om det i respektive README.md i mapparna.
+
+Det enklaste exemplet (om du är nybörjare i node och javascript) finns att hitta i mappen **[cold-war-timeline](https://github.com/mattische/exempel-datainsamling/tree/main/cold-war-timeline)**. 
+
+Sedan kan du gå vidare med innehållet i de andra mapparna.
+
+
+Läs mer om respektive exempel i README.md filerna i respektive mapp.
 
 ---
 
