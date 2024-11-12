@@ -10,7 +10,7 @@ I dessa exempel visualiseras datat i diagram, tabeller, en timeline och med en k
 
 Det enklaste exemplet (om du är nybörjare i node och javascript) finns att hitta i mappen **[cold-war-timeline](https://github.com/mattische/exempel-datainsamling/tree/main/cold-war-timeline)**. 
 
-Sedan kan du gå vidare med innehållet i mappen **[scb](https://github.com/mattische/exempel-datainsamling/tree/main/scb)** för att i mappen **restcountries**.
+Sedan kan du gå vidare med innehållet i de andra mapparna.
 
 ---
 
