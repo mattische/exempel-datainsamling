@@ -25,7 +25,7 @@ vilket startar en server på [localhost:3000](http://localhost:3000/) som du kan
 ### filerna är
 
 ```
-project-directory/
+infograph/
 ├── index.js           # startar en express server, läser in json-filen
 ├── public/
 │   ├── index.html     # html-fil som visar infographics/dashboard (chart.js och leaflet.js används för att generar diagram och karta)
