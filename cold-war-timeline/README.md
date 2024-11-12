@@ -7,7 +7,7 @@ Förhoppningsvis kan detta ge en ingång till hur insamlad data kan visualiseras
 html-filen visar en timeline över några årtal under kalla kriget.
 Datainsamlingen har gjorts manuellt, dvs data hämtas inte programmatiskt - den har för hand skrivits in i en .json-fil. 
 
-Datat är alltså några viktiga årtal under [kalla kriget](https://sv.wikipedia.org/wiki/Kalla_kriget) samt information kring dessa händelser. Denna "data" har sparats i en .json fil.
+Datat är då alltså några viktiga årtal under [kalla kriget](https://sv.wikipedia.org/wiki/Kalla_kriget) samt information kring dessa händelser och har för hand skrivits i filen  events.json
 
 ### Filerna:
 
