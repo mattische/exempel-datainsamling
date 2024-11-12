@@ -1,12 +1,12 @@
-# Datainsamling test
+# Olika exempel för datainsamling
 
 Detta repo innehåller några exempel/test med node för datainsamling och visulisering av insamlad data.
 
 Tanken är att dessa små exempel ska kunna ge tankar och idéer hur datainsamling skulle kunna ske och se ut. 
-Förhoppningsvis väcker det intresse och man kan se att det inte alls är svårt - det är bara idéer och tankar om vad man ska göra som behöver till först!
+Förhoppningsvis väcker det intresse och man kan se att det inte alls är särskilt svårt - det är bara idéer och tankar om vad man ska göra som behöver till först!
 
 Exemplen är alltså tänkta att visa hur snabbt man komma igång med t ex "fri" data och sedan generera och visualisera något med datat.
-I dessa exempel visualiseras datat i diagram, tabeller, en timeline och med en karta - men som sagt, en visualisering kan ske på många olika sätt.
+I dessa exempel visualiseras datat i diagram, tabeller, en timeline, ett dashboard/infografik och med en karta - men som sagt, en visualisering kan ske på många olika sätt.
 
 Det enklaste exemplet (om du är nybörjare i node och javascript) finns att hitta i mappen **[cold-war-timeline](https://github.com/mattische/exempel-datainsamling/tree/main/cold-war-timeline)**. 
 
