@@ -16,7 +16,7 @@ Sedan kan du gå vidare med innehållet i mappen **[scb](https://github.com/matt
 
 ### Innehåll
 
-- I mappen **restcountries** finns ett exempel med population från restcountries API:t. restcountries är ett fritt API och datat däri kan användas utan ett konto. Datainsamlingen sker alltså via ett anrop till ett API och sparas sedan lokalt i en json-fil. Innehållet i json-filen läses sedan av ett antal script som genererar filer som visualiserar datat i html-filer.
+- I mappen **[restcountries](https://github.com/mattische/exempel-datainsamling/tree/main/restcountries)** finns ett exempel med population från restcountries API:t. restcountries är ett fritt API och datat däri kan användas utan ett konto. Datainsamlingen sker alltså via ett anrop till ett API och sparas sedan lokalt i en json-fil. Innehållet i json-filen läses sedan av ett antal script som genererar filer som visualiserar datat i html-filer.
 
 - I mappen **[infograph](https://github.com/mattische/exempel-datainsamling/tree/main/infograph)** finns ett exempel som startar en lokal server och visar insamlad data som ett "dashboard" eller enkel "infographic". Datat som används är samma som i **restcountries**, fast nu visualiserad på ett annat sätt.
 
