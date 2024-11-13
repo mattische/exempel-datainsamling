@@ -4,7 +4,7 @@
 
 
 
-### Innehåll
+### Filer
 
 
 **app.js**
@@ -32,16 +32,11 @@
 - startar browser (med open-kommandot) med html-sidorna
 ````
 
-**package.json**
-
-```
-- konfigurationsfil. Här finns bl a info om vilka moduler som krävs installation av.
-```
 
 
 **kör exemplet**
 
-Installera de moduler moduler som krävs (se i package.json för vilka dessa är):
+Installera de moduler moduler som krävs (express, axios, lodash och jsdom):
 
 Kör kommandot:
 
@@ -49,7 +44,13 @@ Kör kommandot:
 
 $npm install
 
-````
+```
+
+eller om du av någon anledning vill installera dessa "mer manuellt":
+
+```
+$npm install express axios lodash jsdom
+```
 
 kör hela detta exempel med kommandona i tur och ordning:
 
@@ -59,7 +60,7 @@ kör hela detta exempel med kommandona i tur och ordning:
 //genererar filer
 $node app.js
 
-//startar en server
+//genererar filer, startar en server och öppnar de filerna i en webbläsare
 $node world_data.js
 
 ```
