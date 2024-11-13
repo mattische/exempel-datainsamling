@@ -41,10 +41,7 @@
 
 **kör exemplet**
 
-För att köra detta exempel behöver du ha node installerat (https://nodejs.org).
-Enklast är om du sedan öppnar innehållet i den här mappen i Visual Studio Code och strartar ett terminalfönster däri.
-
-Via terminalen kan du nu installera de moduler moduler som krävs (se i package.json för vilka dessa är):
+Installera de moduler moduler som krävs (se i package.json för vilka dessa är):
 
 Kör kommandot:
 
