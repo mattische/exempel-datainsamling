@@ -1,5 +1,7 @@
 # infograph
 
+![dashboard](https://github.com/mattische/exempel-datainsamling/blob/cc4d839f8bd0b8ca4238d8377223147ba7e77a6b/images/dash.png)
+
 Den här mappen innehåller ett script (index.js) som startar en express server i node.
 Scriptet läser in data ifrån filen data/world_data.json och generar ett antal olika diagram och en världskarta.
 
