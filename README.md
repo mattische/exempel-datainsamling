@@ -9,7 +9,7 @@ Exemplen är alltså tänkta att visa hur snabbt man komma igång med t ex "fri"
 I dessa exempel visualiseras datat i diagram, tabeller, en timeline, ett dashboard/infografik och med en karta - men som sagt, en visualisering kan ske på många olika sätt.
 
 
-![dashboard](https://github.com/mattische/exempel-datainsamling/blob/cc4d839f8bd0b8ca4238d8377223147ba7e77a6b/images/dash.png)
+![dashboard](https://github.com/mattische/exempel-datainsamling/blob/9fd0b5b3d4db094fce702ba85e6ee4eed781daa9/images/dash2.png)
 
 
 
