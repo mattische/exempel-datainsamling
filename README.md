@@ -16,6 +16,7 @@ Samtliga exempel är skapade i node, vilket innebär att du behöver ha node ins
 För att gå igenom källkoden så behöver du en editor, t ex [Visual Studio Code](https://code.visualstudio.com/).
 
 I exemplen används externa paket/moduler i node som är användbara; t ex så skapas en server med express och data hämtas med hjälp av axios.
+
 I några av exemplen används andra bibliotek som infogas via deras CDN. Exempelvis så genereras interaktiva kartor och diagram med chart.js och leaflet.js.
 
 Här finns mer info om dessa;
