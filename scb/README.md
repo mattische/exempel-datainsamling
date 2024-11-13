@@ -7,6 +7,11 @@ Datat innehåller *"Population by region, marital status, age, sex, observations
 I det här exemplet finns med de filer som genereras när scripten (js-filerna) nedan körs.
 Det betyder att du ska kunna köra exemplet "out-of-the-box", bara att "tuta-å-köra".
 
+---
+
+![scb](https://github.com/mattische/exempel-datainsamling/blob/aa0626a5cf7353f9225248551e8034590f64af3d/images/scb_pop_growth.png)
+
+---
 
 Exemplet innehåller följande filer:
 
