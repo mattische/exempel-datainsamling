@@ -1,3 +1,5 @@
+![world map](https://github.com/mattische/exempel-datainsamling/blob/a37687a467e52101b2791fb316958db59f6ae1af/images/world_map.png)
+
 # restcountries
 
 
