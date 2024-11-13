@@ -24,6 +24,8 @@ Här finns mer info om dessa;
 - https://axios-http.com/docs/intro
 - https://leafletjs.com/
 - https://www.chartjs.org/
+- https://lodash.com/
+- https://www.npmjs.com/package/jsdom
 
 
 ---
