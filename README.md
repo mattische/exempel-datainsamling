@@ -8,10 +8,25 @@ Förhoppningsvis väcker det intresse och man kan se att det inte alls är särs
 Exemplen är alltså tänkta att visa hur snabbt man komma igång med t ex "fri" data och sedan generera och visualisera något med datat.
 I dessa exempel visualiseras datat i diagram, tabeller, en timeline, ett dashboard/infografik och med en karta - men som sagt, en visualisering kan ske på många olika sätt.
 
+---
 
-![dashboard](https://github.com/mattische/exempel-datainsamling/blob/9fd0b5b3d4db094fce702ba85e6ee4eed781daa9/images/dash2.png)
+### node, express, axios, leaflet.js, chart.js
+Samtliga exempel är skapade i node, vilket innebär att du behöver ha node installerat -> [nodejs.org](https://nodejs.org/en)
+
+För att gå igenom källkoden så behöver du en editor, t ex [Visual Studio Code](https://code.visualstudio.com/).
+
+I exemplen används externa paket/moduler i node som är användbara; t ex så skapas en server med express och data hämtas med hjälp av axios.
+I några av exemplen används andra bibliotek som infogas via deras CDN. Exempelvis så genereras interaktiva kartor och diagram med chart.js och leaflet.js.
+
+Här finns mer info om dessa;
+
+- https://expressjs.com/
+- https://axios-http.com/docs/intro
+- https://leafletjs.com/
+- https://www.chartjs.org/
 
 
+---
 
 ### json
 När det gäller datat i de olika exemplen så är denna sparad i formatet [JSON](https://www.json.org/json-en.html). Anledningen till det är dels att de API:er som används delar datat i detta format, samt att det är ett väldigt smidigt och behändigt format att hantera data (och datapunkter) med. Särskilt stora datamängder kan snabbt och enkelt hanteras programmatiskt.
@@ -26,16 +41,7 @@ Några användbara länkar om json:
 - https://www.geeksforgeeks.org/how-to-read-and-write-json-file-using-node-js/
   
 
-### express, axios, leaflet.js, chart.js
-I exemplen används externa paket/moduler i node som är användbara; t ex så skapas en server med express och data hämtas med hjälp av axios.
-I några av exemplen används andra bibliotek som infogas via deras CDN. Exempelvis så genereras interaktiva kartor och diagram med chart.js och leaflet.js.
 
-Här finns mer info om dessa;
-
-- https://expressjs.com/
-- https://axios-http.com/docs/intro
-- https://leafletjs.com/
-- https://www.chartjs.org/
 
 
 
