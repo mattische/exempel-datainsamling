@@ -53,6 +53,9 @@ exempel-datainsamling/
 ├── scb/ 
 ```
 
+> [!TIP]
+> Läs mer om respektive exempel i README.md filerna i respektive mapp.
+
 - I mappen **[restcountries](https://github.com/mattische/exempel-datainsamling/tree/main/restcountries)** finns ett exempel med population från restcountries API:t. restcountries är ett fritt API och datat däri kan användas utan ett konto. Datainsamlingen sker alltså via ett anrop till ett API och sparas sedan lokalt i en json-fil. Innehållet i json-filen läses sedan av ett antal script som genererar filer som visualiserar datat i html-filer.
 
 - I mappen **[infograph](https://github.com/mattische/exempel-datainsamling/tree/main/infograph)** finns ett exempel som startar en lokal server och visar insamlad data som ett "dashboard" eller enkel "infographic". Datat som används är samma som i **restcountries**, fast nu visualiserad på ett annat sätt.
@@ -68,7 +71,7 @@ Det enklaste exemplet (om du är nybörjare i node och javascript) finns att hit
 Sedan kan du gå vidare med innehållet i de andra mapparna.
 
 
-Läs mer om respektive exempel i README.md filerna i respektive mapp.
+
 
 ---
 
@@ -76,6 +79,8 @@ Läs mer om respektive exempel i README.md filerna i respektive mapp.
 
 
 
-```
-//@mattische 24
-````
+
+Skapat av 
+
+@mattische
+
