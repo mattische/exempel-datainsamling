@@ -9,6 +9,10 @@ Exemplen är alltså tänkta att visa hur snabbt man komma igång med t ex "fri"
 I dessa exempel visualiseras datat i diagram, tabeller, en timeline, ett dashboard/infografik och med en karta - men som sagt, en visualisering kan ske på många olika sätt.
 
 
+![dashboard](https://github.com/mattische/exempel-datainsamling/blob/cc4d839f8bd0b8ca4238d8377223147ba7e77a6b/images/dash.png)
+
+
+
 ### json
 När det gäller datat i de olika exemplen så är denna sparad i formatet [JSON](https://www.json.org/json-en.html). Anledningen till det är dels att de API:er som används delar datat i detta format, samt att det är ett väldigt smidigt och behändigt format att hantera data (och datapunkter) med. Särskilt stora datamängder kan snabbt och enkelt hanteras programmatiskt.
 
