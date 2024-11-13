@@ -1,4 +1,6 @@
-# exempel med insamlad data
+# cold-war-timeline - ett enkelt exempel med insamlad data
+
+![timeline](https://github.com/mattische/exempel-datainsamling/blob/8676e4079d0e52024230bafbe847718b9425bcd9/images/cold_war.png)
 
 Tanken med det här exemplet är att det ska vara enkelt.
 
