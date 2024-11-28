@@ -57,7 +57,7 @@ kör hela detta exempel med kommandona i tur och ordning:
 
 
 ```
-//genererar filer
+//startar en server som genererar html diagram i responset (när localhost:3000)
 $node app.js
 
 //genererar filer, startar en server och öppnar de filerna i en webbläsare
