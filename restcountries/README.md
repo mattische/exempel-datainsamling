@@ -69,11 +69,11 @@ $node world_data.js
 
 - **app.js**
   
-  - startar en express-server på **http://localhost:3000** med datat visualiaserat i diagrmaform. Öppna sidan (kopiera länken här t.v och klistra in i webbläsaren.
-  - det görs ett request till API:t med funktionen getPopulationhData(). All data hämtas och sparas i en array som returneras.
-  - funktionen groupData() sorterar hämtad data utifrån kontinenter.
-  - funtionen prepareChartData() grupperar och ordnar datat, så att datat kan visas i diagram för respektive kontinent, på en html-sida.
-  - funktionen createChartPage() tar emot behandlad array med all data och genererar diagram - ett stapeldiagram för respektive kontinent.
+  - startar en express-server på **http://localhost:3000**.
+  - det görs ett request till API:t med funktionen getPopulationData(). All data hämtas och sparas i en array som returneras.
+  - funktionen groupData() tar emot arrayen och sorterar hämtad datat utifrån kontinenter.
+  - funtionen prepareChartData() grupperar och ordnar datat utifrån arrayen, så att datat kan visas i korrekt med chart.js, på en html-sida.
+  - funktionen createChartPage() tar emot sorterad och strukturerad array med all data och genererar diagramen med chart.js - ett stapeldiagram för respektive kontinent.
   - öppna sidan <a href="http://localhost:3000/" target="_blank">localhost:3000</a> för att se de genererade diagramen.
   - stoppa servern i terminalen med Ctrl + c.
 
