@@ -65,7 +65,24 @@ $node world_data.js
 
 ```
 
-Det som händer är att:
+### Flöde/det som händer när scripten körs:
 
-- world_data.js - generar filerna **world_data.html** (data i en enkel html-tabell), **world_heatmap_openlayers.html** (en världskarta med symboler över population) som du sedan kan öppna i din webbläsare/browser.
-- app.js startar en server på **http://localhost:3000** med datat visualiaserat i diagrmaform. Öppna sidan (kopiera länken här t.v och klistra in i webbläsaren.
+- **app.js**
+  
+  - startar en express-server på **http://localhost:3000** med datat visualiaserat i diagrmaform. Öppna sidan (kopiera länken här t.v och klistra in i webbläsaren.
+  - det görs ett request till API:t med funktionen getPopulationhData(). All data hämtas och sparas i en array som returneras.
+  - funktionen groupData() sorterar hämtad data utifrån kontinenter.
+  - funtionen prepareChartData() grupperar och ordnar datat, så att datat kan visas i diagram för respektive kontinent, på en html-sida.
+  - funktionen createChartPage() tar emot behandlad array med all data och genererar diagram - ett stapeldiagram för respektive kontinent.
+  - öppna sidan <a href="http://localhost:3000/" target="_blank">localhost:3000</a> för att se de genererade diagramen.
+  - stoppa servern i terminalen med Ctrl + c.
+
+- **world_data.js** 
+
+  - börja läsa i koden längst ned i filen;
+  - det görs ett request till API:t med funktionen saveAndFetchData(). All data hämtas och sparas i filen world_data.json.
+  - filerna **world_data.html** (data i en enkel html-tabell), **world_heatmap_openlayers.html** (en världskarta med symboler över population) skapas med data från requestet.
+  - i konsolen frågas det efter vilka kontinenter man vill skriva ut data för. När man har svarat så skrivs rådatat ut i konsolen utifrån vald kontinent.
+  - funktionen openBrowser() körs och öppnar de generarde html-filerna i webbläsaren (automatiskt).
+  - om API:t inte går att nå så finns en fallback-funktion som försöker öppan sparat data i json-filen: readJsonFile().
+  
